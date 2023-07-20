@@ -1,0 +1,63 @@
+[
+    {
+      "name": "北京烤鸭",
+      "eng_name": "Peking Duck",
+      "rice": false,
+      "meat": ["duck"],
+      "spicy": false,
+      "seafood": false,
+      "contain_nut": false,
+      "contain_milk": false,
+      "avg_calories": null,
+      "cuisine": "China"
+    },
+    {
+      "name": "宫保鸡丁",
+      "eng_name": "Kung Pao Chicken",
+      "rice": true,
+      "meat": ["chicken"],
+      "spicy": true,
+      "seafood": false,
+      "contain_nut": true,
+      "contain_milk": false,
+      "avg_calories": null,
+      "cuisine": "China"
+    },
+    {
+      "name": "麻婆豆腐",
+      "eng_name": "Mapo Tofu",
+      "rice": false,
+      "meat": ["tofu"],
+      "spicy": true,
+      "seafood": false,
+      "contain_nut": false,
+      "contain_milk": false,
+      "avg_calories": null,
+      "cuisine": "China"
+    },
+    {
+      "name": "干煸四季豆",
+      "eng_name": "Dry-Fried Green Beans",
+      "rice": false,
+      "meat": ["green beans"],
+      "spicy": true,
+      "seafood": false,
+      "contain_nut": false,
+      "contain_milk": false,
+      "avg_calories": null,
+      "cuisine": "China"
+    },
+    {
+      "name": "麻辣火锅",
+      "eng_name": "Spicy Hot Pot",
+      "rice": false,
+      "meat": ["beef", "pork", "chicken", "seafood"],
+      "spicy": true,
+      "seafood": true,
+      "contain_nut": false,
+      "contain_milk": false,
+      "avg_calories": null,
+      "cuisine": "China"
+    }
+  ]
+  

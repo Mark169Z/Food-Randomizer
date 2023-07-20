@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Pizza Margherita",
+      "eng_name": "Margherita Pizza",
+      "rice": false,
+      "meat": [],
+      "spicy": false,
+      "seafood": false,
+      "contain_nut": false,
+      "contain_milk": true,
+      "avg_calories": null,
+      "cuisine": "Italy"
+    },
+    {
+      "name": "Pasta Carbonara",
+      "eng_name": "Carbonara Pasta",
+      "rice": false,
+      "meat": ["bacon", "guanciale", "pancetta"],
+      "spicy": false,
+      "seafood": false,
+      "contain_nut": false,
+      "contain_milk": true,
+      "avg_calories": null,
+      "cuisine": "Italy"
+    },
+    {
+      "name": "Lasagna",
+      "eng_name": "Lasagna",
+      "rice": false,
+      "meat": ["beef", "pork"],
+      "spicy": false,
+      "seafood": false,
+      "contain_nut": false,
+      "contain_milk": true,
+      "avg_calories": null,
+      "cuisine": "Italy"
+    },
+    {
+      "name": "Risotto alla Milanese",
+      "eng_name": "Saffron Risotto",
+      "rice": true,
+      "meat": [],
+      "spicy": false,
+      "seafood": false,
+      "contain_nut": false,
+      "contain_milk": true,
+      "avg_calories": null,
+      "cuisine": "Italy"
+    },
+    {
+      "name": "Spaghetti Bolognese",
+      "eng_name": "Spaghetti Bolognese",
+      "rice": false,
+      "meat": ["beef", "pork"],
+      "spicy": false,
+      "seafood": false,
+      "contain_nut": false,
+      "contain_milk": true,
+      "avg_calories": null,
+      "cuisine": "Italy"
+    }
+  ]
+  

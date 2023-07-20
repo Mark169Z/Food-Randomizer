@@ -10,7 +10,7 @@ function Randomizer() {
     var meat = document.getElementById("meat");
 
     if (val !== "Country?") {
-        fetch(`../food/${val}-food.json`)
+        fetch(`./food/${val}-food.json`)
             .then(response => response.json())
             .then(data => {
                 if (Array.isArray(data) && data.length > 0) {
