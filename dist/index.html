@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Randomizer</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <script src="./script.js"></script>
+    <script src="./color-mode.js"></script>
+</head>
+
+<body>
+    <div class="flex flex-col justify-center items-center h-screen gap-5 mx-[10vw]">
+        <div class="mx-[0vw]">
+            <select id="api-select" onchange="" class="select select-primary w-full">
+                <option disabled selected>Country?</option>
+                <option value="Random">Random</option>
+                <option value="US">US</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Japanese">Japanese</option>
+                <option value="Chinese">Chinese</option>
+                <option value="Italian">Italian</option>
+              </select>
+            </div>
+
+            <div class="card w-80 bg-base-100 shadow-xl">
+                <figure><img class="object-cover" src="https://as1.ftcdn.net/v2/jpg/01/29/75/62/1000_F_129756209_jzrdjAiwfZjqsN2kZ49hkoRHkVfO3Wnc.jpg" alt="Food" /></figure>
+                <div class="card-body">
+                  <h2 id="eng_name" class="card-title">
+                    Food
+                    <div id="cuisine" class="badge badge-secondary hidden"></div>
+                  </h2>
+                  <p id="paragraph">Please start randomize</p>
+                  <div class="card-actions justify-end">
+                    <div id="milk" class="badge badge-outline hidden">Milk contained</div> 
+                    <div id="nut" class="badge badge-outline hidden">Nut contained</div>
+                    <div id="seafood" class="badge badge-outline hidden">Seafood</div>
+                    <div id="spicy" class="badge badge-outline hidden">Spicy</div>
+                    <div id="meat" class="badge badge-outline hidden">Meat</div>
+                  </div>
+                </div>
+              </div>
+
+              <button class="btn btn-active btn-primary" onclick="Randomizer()">Random</button>
+
+              <label class="swap top-[4rem]">
+                <input type="checkbox" id="themeToggle" />
+                <div class="swap-on">DARK MODE</div>
+                <div class="swap-off">LIGHT MODE</div>
+              </label>
+    </div>
+    
+</body>
+</html>

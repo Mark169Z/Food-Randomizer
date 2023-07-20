@@ -1,0 +1,87 @@
+[
+    {
+      "name": "寿司",
+      "eng_name": "Sushi",
+      "rice": true,
+      "meat": ["fish"],
+      "spicy": false,
+      "seafood": true,
+      "contain_nut": false,
+      "contain_milk": false,
+      "avg_calories": null,
+      "cuisine": "Japan"
+    },
+    {
+      "name": "ラーメン",
+      "eng_name": "Ramen",
+      "rice": false,
+      "meat": ["pork", "chicken", "beef"],
+      "spicy": true,
+      "seafood": false,
+      "contain_nut": false,
+      "contain_milk": false,
+      "avg_calories": null,
+      "cuisine": "Japan"
+    },
+    {
+      "name": "てんぷら",
+      "eng_name": "Tempura",
+      "rice": false,
+      "meat": ["seafood", "vegetables"],
+      "spicy": false,
+      "seafood": true,
+      "contain_nut": false,
+      "contain_milk": false,
+      "avg_calories": null,
+      "cuisine": "Japan"
+    },
+    {
+      "name": "お好み焼き",
+      "eng_name": "Okonomiyaki",
+      "rice": false,
+      "meat": ["pork", "seafood"],
+      "spicy": false,
+      "seafood": true,
+      "contain_nut": false,
+      "contain_milk": false,
+      "avg_calories": null,
+      "cuisine": "Japan"
+    },
+    {
+      "name": "天ぷら",
+      "eng_name": "Tendon",
+      "rice": true,
+      "meat": ["seafood", "vegetables"],
+      "spicy": false,
+      "seafood": true,
+      "contain_nut": false,
+      "contain_milk": false,
+      "avg_calories": null,
+      "cuisine": "Japan"
+    },
+    {
+      "name": "さしみ",
+      "eng_name": "Sashimi",
+      "rice": false,
+      "meat": ["fish"],
+      "spicy": false,
+      "seafood": true,
+      "contain_nut": false,
+      "contain_milk": false,
+      "avg_calories": null,
+      "cuisine": "Japan"
+    },
+    {
+      "name": "カレー",
+      "eng_name": "Curry",
+      "rice": true,
+      "meat": ["chicken", "beef", "pork"],
+      "spicy": true,
+      "seafood": false,
+      "contain_nut": false,
+      "contain_milk": false,
+      "avg_calories": null,
+      "cuisine": "Japan"
+    }
+  ]
+  

@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Hamburger",
+      "eng_name": "Hamburger",
+      "rice": false,
+      "meat": ["beef"],
+      "spicy": false,
+      "seafood": false,
+      "contain_nut": false,
+      "contain_milk": false,
+      "avg_calories": null,
+      "cuisine": "American"
+    },
+    {
+      "name": "Cheeseburger",
+      "eng_name": "Cheeseburger",
+      "rice": false,
+      "meat": ["beef"],
+      "spicy": false,
+      "seafood": false,
+      "contain_nut": false,
+      "contain_milk": true,
+      "avg_calories": null,
+      "cuisine": "American"
+    },
+    {
+      "name": "Hot Dog",
+      "eng_name": "Hot Dog",
+      "rice": false,
+      "meat": ["beef", "pork"],
+      "spicy": false,
+      "seafood": false,
+      "contain_nut": false,
+      "contain_milk": false,
+      "avg_calories": null,
+      "cuisine": "American"
+    },
+    {
+      "name": "Apple Pie",
+      "eng_name": "Apple Pie",
+      "rice": false,
+      "meat": [],
+      "spicy": false,
+      "seafood": false,
+      "contain_nut": false,
+      "contain_milk": false,
+      "avg_calories": null,
+      "cuisine": "American"
+    },
+    {
+      "name": "Buffalo Wings",
+      "eng_name": "Buffalo Wings",
+      "rice": false,
+      "meat": ["chicken"],
+      "spicy": true,
+      "seafood": false,
+      "contain_nut": false,
+      "contain_milk": true,
+      "avg_calories": null,
+      "cuisine": "American"
+    }
+  ]
+  
